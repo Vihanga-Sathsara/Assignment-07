@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(231, 229, 228);
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#container{
+    position: relative ; 
+    top: 10%;
+}
+
+h1{
+    color: red;
+    text-align: center;
+    font-size: 5rem;
+}
+section{
+    display: flex;
+}
+.mangif{
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    border-bottom: 3px solid rgba(128, 128, 128, 0.6);
+    width: 100%;
+}
+
+.walkingman{
+    position: relative;
+    height: 20vh;  
+}
+.man{
+    position: relative;
+}
+#housegif{
+    position: relative;
+    height: 25vh;
+    width: 90%;
+}
+
+span{
+   position: absolute;
+   color: rgb(14, 173, 231);
+   font-weight: bold;
+   top: 0;
+   right: 5%;
+}
+
+#buttons{
+    position: relative;
+    top: 25%;
+    text-align: center;
+}
+
+.btn{
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#start{
+    background-color: green;
+}
+
+#stop{
+    background-color: red;
+}

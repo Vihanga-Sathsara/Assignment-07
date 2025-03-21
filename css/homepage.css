@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    align-content: center;
+    justify-items: center;
+}
+
+h1,h2{
+    color: white;
+}
+
+#buttons{
+  position: relative;
+  padding: 30px;
+}
+
+button{
+    width: 15vw;
+    height: 15vh;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 1s ease-in-out;
+}
+
+button a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff2f00;
+    transition: color 1s ease-in-out;
+}
+
+button:hover{
+    background-color: #ff2f00;
+    color: white;
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px white;
+}
+
+button:hover a {
+    color: #ffffff; 
+}

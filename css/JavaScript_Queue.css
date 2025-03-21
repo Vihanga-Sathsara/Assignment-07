@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: black;
+    overflow: hidden;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+#container{
+    position: relative;
+    width: 80%;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-30%);
+}
+
+.square{
+    width: 100px;
+    height: 50px;
+    background-color: aliceblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    border-radius: 5px;
+}
+
+#middleSection{
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    gap: 10px;
+}
+
+
+.upperSquare{
+    background-color: rgb(227, 194, 194);
+}
+
+.firstSquare{
+    background-color: plum;
+}
+
+.secondSquare{
+    background-color: red;
+}
+
+.thirdSquare{
+    background-color: green
+}
+
+.fourthSquare{
+    background-color: blue;
+}
+
+.bottomSquare{
+    left: 92%;
+    background-color: yellow;
+}
+
+#buttons{
+    position: relative;
+    top: 40%;
+    text-align: center;
+}
+
+.btn{
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.start{
+    background-color: green;
+}
+
+.stop{
+    background-color: red;
+}
